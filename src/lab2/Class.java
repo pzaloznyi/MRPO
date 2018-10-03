@@ -1,10 +1,11 @@
 package lab2;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Class {
     private Schedule schedule;
-    private ArrayList<Pupil> pupils;
+    private List<Pupil> pupils;
 
     public Class() {
         this.pupils = new ArrayList<>();

@@ -1,9 +1,10 @@
 package lab2;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class HeadTeacher {
-    ArrayList<Class> classes;
+    List<Class> classes;
 
     public HeadTeacher() {
         this.classes = new ArrayList<>();

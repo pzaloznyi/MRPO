@@ -2,15 +2,16 @@ package lab4;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Park {
-    private ArrayList<Attraction> attractions;
+    private List<Attraction> attractions;
 
     public Park() {
         attractions = new ArrayList<>();
     }
 
-    public ArrayList<Attraction> getAttractions() {
+    public List<Attraction> getAttractions() {
         return attractions;
     }
 
